@@ -1,2 +1,2 @@
 # careerboost_pro
-In this repository I save my Ai resume analyzer app 
+In this repository I save my Ai resume analyzer app, entire code

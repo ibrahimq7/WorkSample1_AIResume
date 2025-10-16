@@ -1,147 +1,162 @@
-🚀 Career Boost AI
+<h1 align="center">🚀 Career Boost AI</h1>
 
-Career Boost AI is an intelligent, fast, and sleek career preparation platform designed to help job seekers land their dream job — with a personalized touch for every company. Whether you're applying to Google, Microsoft, or a startup, this app tailors your journey with AI-driven insights, resume enhancement, skill development, and mock interviews — all in one powerful tool.
+<p align="center">
+  <b>An intelligent, fast, and sleek AI-powered career preparation platform built to help job seekers land their dream jobs — from resume to interview.</b>
+</p>
 
-🌟 Key Features
-📝 1. AI-Powered Resume Builder
+<p align="center">
+  <a href="#"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Build-Passing-brightgreen" alt="Build Status"></a>
+  <a href="#"><img src="https://img.shields.io/badge/AI-Powered-orange" alt="AI Powered"></a>
+</p>
 
-Design your resume with cutting-edge UI/UX templates customized for the company you're applying to.
+---
 
-Example: Applying to Google? Your resume will follow Google's design language.
+## ✨ Overview
 
-Smooth and responsive editor
+**Career Boost AI** is an all-in-one platform that personalizes your entire job preparation journey. Whether you're applying to **Google**, **Microsoft**, or your favorite startup, the platform leverages AI to enhance resumes, recommend skills, and prepare you with real interview simulations — all in a clean, modern UI.
 
-Company-specific resume templates
+---
 
-🔍 2. Smart Resume Analyzer
+## 🌟 Features
 
-Parse and extract the most critical parts of your resume using AI:
+### 📝 1. AI-Powered Resume Builder
+- Sleek UI/UX templates tailored to the target company.  
+- Example: Applying to Google? Get Google-style resume designs.  
+- Smooth and responsive editor.  
+- Company-specific customization.
 
-Personal Information
+---
 
-Skills & Technologies
+### 🔍 2. Smart Resume Analyzer
+- Automatically parses and extracts key details:  
+  - Personal Info  
+  - Skills & Technologies  
+  - Achievements  
+  - Extra-curricular Activities  
+- Provides formatting feedback and actionable suggestions.
 
-Achievements
+---
 
-Extra-curricular Activities
+### 🎯 3. Skill Recommendation Engine
+- Recommends skills based on:
+  - Your current resume
+  - Dream job title or company
+  - Market trends & demands
 
-Formatting feedback and suggestions
+---
 
-🎯 3. Skill Recommendation Engine
+### 🎓 4. Free Learning Resources
+- Curated **YouTube courses** and **free online materials** for each recommended skill.
+- Beginner to advanced level pathways.
 
-Get tailored skill suggestions based on:
+---
 
-Your current resume
+### 📊 5. Resume Scoring & Ranking
+- AI-driven scoring system evaluates:
+  - Skill relevance
+  - Achievement impact
+  - Resume quality
+- Benchmark against others with ranking.
 
-Your dream job title or company
+---
 
-Industry trends and job demands
+### 🧠 6. Job-Oriented Practice
+- Real-world preparation through:
+  - MCQs & coding questions
+  - Mock tests and case studies
+  - Performance tracking
 
-🎓 4. Free Learning Resources
+---
 
-For every recommended skill, the app provides:
+### 🎤 7. Interview Prep Toolkit
+- Insider interview tips, curated videos, and:
+  - Company-specific insights
+  - Do’s & Don’ts for interviews
 
-Curated free YouTube course videos
+---
 
-Links to high-quality free learning resources
+### 🧑‍💼 8. AI Mock Interview (Avatar AI)
+- Simulates real interviews with:
+  - Lifelike AI Avatar
+  - Real-time behavioral & technical Q&A
+  - Instant feedback
 
-Beginner to advanced content pathways
+---
 
-📊 5. Resume Scoring & Ranking
+## ⚡ Tech Highlights
 
-An AI-driven resume scoring system that evaluates:
+- ⚡ Fast, responsive UI  
+- 🧠 AI/ML models for parsing and skill recommendation  
+- 🕹️ Realistic interview simulations with Avatar AI  
+- 💻 Clean, modern UX/UI design
 
-Skill relevance
+---
 
-Achievement impact
+## 🛠️ Tech Stack (Planned)
 
-Overall resume quality
+| Layer            | Technology                                                                 |
+|-------------------|------------------------------------------------------------------------------|
+| Frontend          | React / Next.js / Flutter                                                   |
+| Backend           | Node.js / Express / FastAPI                                                 |
+| AI/ML             | Python (spaCy, scikit-learn, OpenAI API, etc.)                              |
+| Database          | MongoDB / PostgreSQL                                                        |
+| Hosting           | Vercel / Netlify / AWS                                                      |
+| APIs              | YouTube Data API, OpenAI API, others                                       |
 
-Ranking system to benchmark your resume
+---
 
-🧠 6. Job-Oriented Practice
+## 🧭 Development Timeline
 
-Master your target role with focused practice:
+| Phase               | Goal                                          | Duration        |
+|-----------------------|-----------------------------------------------|------------------|
+| 🚀 Week 1             | Build MVP with core features                 | 7 Days           |
+| 🧠 Week 2+            | AI integration & optimization                | Ongoing          |
+| 🌐 Future             | Job listings, chatbot advisor, integrations | Future Enhancements |
 
-MCQs, coding questions, and mock tests
+---
 
-Real-world problems based on your chosen field
+## 🧰 Installation & Setup
 
-Tracks performance and improvement areas
+Follow the steps below to set up **Career Boost AI** on your local machine.
 
-🎤 7. Interview Prep Toolkit
+### ✅ Prerequisites
+- [Git](https://git-scm.com/)  
+- [Node.js](https://nodejs.org/) (v16+) & npm  
+- [Python 3.8+](https://www.python.org/)  
+- MongoDB/PostgreSQL (if required)
 
-Ace your interviews with:
+---
 
-Curated YouTube videos for interview guidance
+### 📥 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/career-boost-ai.git
+cd career-boost-ai
 
-In-app tips, dos and don’ts
+2. Install Dependencies
+Frontend
 
-Company-specific interview insights
+cd frontend
+npm install
 
-🧑‍💼 8. AI Mock Interview (Avatar AI)
+Backend (Node.js example)
+cd backend
+npm install
 
-Practice interviews with a lifelike AI Avatar that simulates real interviewers:
+Or (Python FastAPI example)
+cd backend
+pip install -r requirements.txt
 
-Real-time responses
+🔐 3. Configure Environment Variables
+Create .env in both frontend and backend directories:
 
-Behavioral and technical rounds
+OPENAI_API_KEY=your_openai_api_key
+YOUTUBE_API_KEY=your_youtube_api_key
+DATABASE_URL=your_database_connection_string
 
-Instant feedback with suggestions
 
-Fast, human-like experience
+🏃 4. Run the Application
+Backend – Node.js
 
-⚡ Tech Highlights
-
-Fast & responsive UI for smooth performance
-
-AI/ML models for resume parsing and skill recommendation
-
-Avatar AI for realistic interview simulations
-
-Clean, modern design with optimal UX
-
-📅 Development Timeline
-
-⏱ Challenge: Build the complete application in 1 week
-This project is a testament to rapid development, AI integration, and user-first design.
-
-🛠️ Built With (Expected Stack)
-
-Frontend: React / Next.js / Flutter (depending on platform)
-
-Backend: Node.js / Express / FastAPI
-
-AI/ML: Python (spaCy, scikit-learn, OpenAI API, etc.)
-
-Database: MongoDB / PostgreSQL
-
-Hosting: Vercel / Netlify / AWS
-
-APIs: YouTube Data API, OpenAI, etc.
-
-📌 Future Enhancements
-
-User accounts & cloud storage of resumes
-
-Real-time job listings integration
-
-AI career advisor chatbot
-
-Integration with LinkedIn & GitHub profiles
-
-🤝 Contributing
-
-If you're passionate about helping others land their dream job and want to contribute, feel free to fork the repo and submit a pull request!
-
-📄 License
-
-This project is open-source under the MIT License.
-
-🙌 Acknowledgments
-
-YouTube Education Creators for amazing free content
-
-OpenAI and other AI toolkits
-
-Inspiration from real job seekers and career mentors
+cd backend
+npm start

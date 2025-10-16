@@ -97,12 +97,12 @@
 
 | Layer            | Technology                                                                 |
 |-------------------|------------------------------------------------------------------------------|
-| Frontend          | React / Next.js / Flutter                                                   |
-| Backend           | Node.js / Express / FastAPI                                                 |
+| Frontend          | React / Next.js / CSS / HTML                                                   |
+| Backend           | Node.js / Django / FastAPI                                                 |
 | AI/ML             | Python (spaCy, scikit-learn, OpenAI API, etc.)                              |
 | Database          | MongoDB / PostgreSQL                                                        |
 | Hosting           | Vercel / Netlify / AWS                                                      |
-| APIs              | YouTube Data API, OpenAI API, others                                       |
+| APIs              | YouTube Data API, Udemy, Coursera, others                                        |
 
 ---
 

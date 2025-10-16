@@ -132,31 +132,87 @@ Follow the steps below to set up **Career Boost AI** on your local machine.
 ```bash
 git clone https://github.com/your-username/career-boost-ai.git
 cd career-boost-ai
-
-2. Install Dependencies
+```
+### 2. Install Dependencies
 Frontend
-
+```bash
 cd frontend
 npm install
-
+```
 Backend (Node.js example)
+```bash
 cd backend
 npm install
-
+```
 Or (Python FastAPI example)
+```bash
 cd backend
 pip install -r requirements.txt
+```
 
-🔐 3. Configure Environment Variables
+### 🔐 3. Configure Environment Variables
 Create .env in both frontend and backend directories:
-
+```bash
 OPENAI_API_KEY=your_openai_api_key
 YOUTUBE_API_KEY=your_youtube_api_key
 DATABASE_URL=your_database_connection_string
+```
 
-
-🏃 4. Run the Application
+### 🏃 4. Run the Application
 Backend – Node.js
-
+```bash
 cd backend
 npm start
+```
+
+Backend – FastAPI
+```bash
+cd backend
+uvicorn main:app --reload
+```
+
+Frontend
+```bash
+cd frontend
+npm start
+```
+### 👉 Navigate to http://localhost:3000 to explore the app.
+
+### 🧪 Optional: Run Tests
+```bash
+npm test     # Node.js
+pytest       # Python
+```
+
+
+### 🛠 Troubleshooting
+- Ensure all dependencies are installed.
+- Check .env for missing/invalid values.
+- Change ports if they’re busy.
+- Configure CORS if frontend-backend connection fails.
+- If issues persist, open a [GitHub Issue](https://github.com/your-username/career-boost-ai/issues)
+
+### 🌱 Future Enhancements
+- ☁️ Cloud storage for resumes
+- 📡 Real-time job listings
+- 🤖 AI career advisor chatbot
+- 🔗 LinkedIn & GitHub profile integration
+
+### 🤝 Contributing
+- We welcome contributions!
+- Fork the repository
+- Create a new branch (feature/your-feature)
+- Commit your changes
+- Open a pull request
+
+### 📜 License
+This project is licensed under the MIT License.
+
+### 🙌 Acknowledgments
+- 📺 YouTube Education Creators
+- 🤖 OpenAI and AI toolkits
+-  👥 Real job seekers and mentors who inspired this
+
+<p align="center">✨ <b>Career Boost AI — Empowering your journey from resume to offer letter.</b> ✨</p> ```
+
+
